@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import "../styles/Home.css";
-import profilePicture from '../assets/foto-perfil.jpeg';
 
 const Home = () => {
   const [githubData, setGithubData] = useState(null);
@@ -14,7 +13,7 @@ const Home = () => {
   return (
     <div className="home">
       <img
-        src="./src/assets/foto-perfil.jpeg" 
+        src="/foto-perfil.jpeg" 
         alt="Perfil"
         className="profile-picture"
       />
