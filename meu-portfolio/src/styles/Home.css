@@ -1,0 +1,73 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3e5f5; /* Lilás claro */
+    color: #4a148c; /* Roxo escuro */
+    text-align: center;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #7b1fa2; /* Roxo médio */
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .github-info {
+    background-color: #ffffff; /* Branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .github-info h2 {
+    color: #7b1fa2; /* Roxo médio */
+    margin-bottom: 10px;
+  }
+  
+  .github-info p {
+    margin: 5px 0;
+  }
+  
+  .github-info a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7b1fa2;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .github-info a:hover {
+    background-color: #4a148c; /* Roxo escuro */
+  }
+  
+  .button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7b1fa2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .button:hover {
+    background-color: #4a148c;
+  }
+  

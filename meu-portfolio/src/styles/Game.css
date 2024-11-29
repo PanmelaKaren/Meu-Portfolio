@@ -1,0 +1,73 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #ede7f6; /* Lilás suave */
+    color: #4a148c; /* Roxo escuro */
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    color: #ffffff;
+    background-color: #7b1fa2;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4a148c;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #7b1fa2;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #4a148c;
+  }
+  
+  .guess-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .guess-list li {
+    background-color: #ffffff; /* Branco */
+    color: #4a148c; /* Roxo escuro */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .guess-list span {
+    font-weight: bold;
+  }
+  
