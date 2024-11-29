@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "../styles/Home.css";
+import profilePicture from '../assets/foto-perfil.jpeg';
 
 const Home = () => {
   const [githubData, setGithubData] = useState(null);
